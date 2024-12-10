@@ -45,7 +45,12 @@ Dado que la Raspberry Pi consume 432 Wh al día (1.5 A a 12 V), una sola placa d
 ### Precio
 - Los precios de los cuales nos tenemos que hacer cargo son:
 1. Raspberry Pi Zero 2W 29,90€ (Amazon)
-2. Panel Solar 12V 100W Policristalino 83.99€ (Leroy Merlin) 
+2. Panel Solar 12V 100W Policristalino 83.99€ (Leroy Merlin)
+3. Electronicx Bateria Solar AGM 12v 100ah Marine Edition Barcos Barcas Caravanas Autocaravanas Camper Camping Furgos Bateria Solar de Ciclo Profundo 159€ (amazon)
+4. Cables 20-30 eruos conectores
+5. Accesorios para módulo solar de 20 A, 12 V, 24 V, cable de conexión fotovoltaico con pinza de cocodrilo (conectado a la batería) para conectar el panel solar. 50€ (Amazon)
+
+ 
 
 ## Montar un Servidor en Raspberry Pi
 
