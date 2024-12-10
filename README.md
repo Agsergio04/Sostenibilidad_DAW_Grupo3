@@ -1,9 +1,13 @@
 # Raspberry Pi y Energía Solar
 ### Integrantes
--Sergio Aragón Garcia
--Francisco de Paula Alba Muñoz
--Juan Herrador Rello
--Abel Suazo Cabeza de Vaca
+Sergio Aragón Garcia
+
+Francisco de Paula Alba Muñoz
+
+Juan Herrador Rello
+
+Abel Suazo Cabeza de Vaca
+
 ## Consumo de Energía de Raspberry Pi
 
 Para una Raspberry Pi 4 que consume un promedio de 1.5 A/h, el cálculo del consumo diario y mensual es el siguiente:
