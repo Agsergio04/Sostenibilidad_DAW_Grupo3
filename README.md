@@ -85,8 +85,8 @@ Dependiendo del tipo de servidor que desees montar, puedes elegir entre varias o
 
 ### 4. Configurar el servidor
 - **Configurar Apache**:
-  Coloca tus archivos web en /var/www/html.
-  Puedes acceder a tu servidor web desde un navegador ingresando la dirección IP de la Raspberry Pi.
+ - Coloca tus archivos web en /var/www/html.
+ - Puedes acceder a tu servidor web desde un navegador ingresando la dirección IP de la Raspberry Pi.
 - **Configurar MySQL**:
  Asegúrate de asegurar tu instalación de MySQL:
   ```bash
