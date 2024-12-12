@@ -8,15 +8,74 @@ Juan Herrador Rello
 
 Abel Suazo Cabeza de Vaca
 
-## Consumo de Energía de Raspberry Pi
+## Introducción
 
-Para una Raspberry Pi 4 que consume un promedio de 1.5 A/h, el cálculo del consumo diario y mensual es el siguiente:
+Este proyecto se centra en la creación de un servidor web alimentado exclusivamente por energía renovable, demostrando que es posible desarrollar soluciones tecnológicas sostenibles y accesibles.
 
-- **Consumo diario**:
-  $$Consumo \ diario = 1.5 \ A \times 24 \ h = 36 \ Ah$$
+Para ello, se utilizará una Raspberry Pi, un microordenador de bajo consumo energético, como base del servidor. Este dispositivo ofrece una combinación ideal de eficiencia y versatilidad, lo que lo convierte en una opción perfecta para aplicaciones ligeras como un servidor web.
 
-- **Consumo mensual**:
-  $$Consumo \ mensual = 36 \ Ah/día \times 30 \ días = 1080 \ Ah$$
+## Selección del Hardware: CPU
+
+### Comparativa de Modelos de Raspberry Pi y Alternativa
+
+| Modelo                  | Consumo Energético (reposo/carga) | Rendimiento (CPU/RAM)       | Ventajas                       | Desventajas                    |
+|-------------------------|------------------------------------|-----------------------------|--------------------------------|--------------------------------|
+| **Raspberry Pi Zero W** | ~0.5W / ~1.2W                     | 1 núcleo / 512MB RAM        | Muy bajo consumo; económico.   | Rendimiento limitado.          |
+| **Raspberry Pi 3B+**    | ~1.2W / ~4W                       | 4 núcleos / 1GB RAM         | Buen balance entre consumo y potencia. | Menor eficiencia que el Pi 4.  |
+| **Raspberry Pi 4 (4GB)**| ~3W / ~6W                         | 4 núcleos / hasta 8GB RAM   | Excelente rendimiento; multitarea. | Alto consumo para proyectos solares pequeños. |
+| **Raspberry Pi 400**    | ~6W / ~10W                        | 4 núcleos / 4GB RAM         | Integración con teclado; ideal para aprendizaje. | Diseño menos compacto.         |
+
+### Alternativa: ODROID-C4
+
+| Modelo                  | Consumo Energético                | Rendimiento (CPU/RAM)       | Ventajas                       | Desventajas                    |
+|-------------------------|------------------------------------|-----------------------------|--------------------------------|--------------------------------|
+| **ODROID-C4**           | ~2W / ~4W                         | 4 núcleos / 4GB RAM         | Similar al Raspberry Pi 4 pero más eficiente energéticamente. | Menor soporte de comunidad y software. |
+
+### Conclusiones
+
+Tras analizar las diferentes opciones, hemos obtenido las siguientes conclusiones en relación a las necesidades de este proyecto:
+
+- **Raspberry Pi Zero W**: Es la opción ideal si el tráfico web será bajo (servidor estático) y el presupuesto es reducido. Su bajo consumo la hace perfecta para un sistema alimentado con un panel solar pequeño (~5W).
+
+- **Raspberry Pi 3B+**: Una buena opción para proyectos con requerimientos moderados, como un servidor dinámico con tráfico ocasional. Sin embargo, su consumo energético demanda un panel solar más potente, de aproximadamente 10W.
+
+- **Raspberry Pi 4**: Es la mejor elección si se necesita alto rendimiento (por ejemplo, para bases de datos o aplicaciones más pesadas). No obstante, su mayor consumo energético implica una configuración solar más robusta, con un panel de ~20W o superior.
+
+- **ODROID-C4**: Representa una alternativa eficiente si se busca un rendimiento similar al Raspberry Pi 4, pero con un consumo energético algo menor. A pesar de esto, su menor soporte de comunidad y software podría dificultar su implementación en comparación con las opciones de Raspberry Pi.
+
+## Consumo Diario y Mensual de la Raspberry Pi Zero W
+
+### Suposiciones:
+- **Consumo en reposo**: 0.5W
+- **Consumo en carga ligera**: 1.2W
+- **Horas de funcionamiento por día**: 24 horas
+- **Panel solar** de 5W para alimentar el dispositivo
+
+### Cálculo del Consumo Diario
+
+#### Consumo en reposo:
+0.5W * 24 horas = **12 Wh/día**
+
+#### Consumo en carga ligera:
+1.2W * 24 horas = **28.8 Wh/día**
+
+Por lo tanto, el consumo diario de la Raspberry Pi Zero W varía entre **12 Wh/día** y **28.8 Wh/día**, dependiendo de las condiciones de carga.
+
+### Cálculo del Consumo Mensual
+
+#### Consumo en reposo:
+12 Wh/día * 30 días = **360 Wh/mes** o **0.36 kWh/mes**
+
+#### Consumo en carga ligera:
+28.8 Wh/día * 30 días = **864 Wh/mes** o **0.864 kWh/mes**
+
+Entonces, el consumo mensual de la Raspberry Pi Zero W puede variar entre **0.36 kWh/mes** y **0.864 kWh/mes**.
+
+**Fuentes:** 
+
+ECO ENERGY GEEK. (s.f.). *Raspberry Pi Zero W power consumption*. Recuperado de https://ecoenergygeek.com  
+RASPI.TV. (2018, 6 de marzo). *Power consumption of the Raspberry Pi Zero W*. Recuperado de https://raspi.tv  
+RASPBERRY PI SPY. (2019, 10 de abril). *Raspberry Pi Zero W power usage*. Recuperado de https://raspberrypi-spy.co.uk  
 
 ## Placa Solar
 
@@ -49,8 +108,6 @@ Dado que la Raspberry Pi consume 432 Wh al día (1.5 A a 12 V), una sola placa d
 3. Electronicx Bateria Solar AGM 12v 100ah Marine Edition Barcos Barcas Caravanas Autocaravanas Camper Camping Furgos Bateria Solar de Ciclo Profundo 159€ (amazon)
 4. Cables 20-30 eruos conectores
 5. Accesorios para módulo solar de 20 A, 12 V, 24 V, cable de conexión fotovoltaico con pinza de cocodrilo (conectado a la batería) para conectar el panel solar. 50€ (Amazon)
-
- 
 
 ## Montar un Servidor en Raspberry Pi
 
