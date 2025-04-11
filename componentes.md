@@ -1,5 +1,11 @@
+# Hardware
 
-### Comparativa de Modelos de Raspberry Pi y Alternativa
+A la hora de la eleccion de nuestro servidor donde queremos alojar nuestra pagina web sostenible hemos declarado que la opcion mas barata y eco-friendly es el uso de placas Rasphberry.  
+
+Por otro lado en el mercado existen una variedad de modelos con especificaciones diferentes,por lo que dejan una diferente huella en el medio ambiente.
+
+
+## Comparativa de Modelos de Raspberry Pi y Alternativa
 
 | Modelo                  | Consumo Energético (reposo/carga) | Rendimiento (CPU/RAM)       | Ventajas                       | Desventajas                    |
 |-------------------------|------------------------------------|-----------------------------|--------------------------------|--------------------------------|
@@ -14,17 +20,20 @@
 |-------------------------|------------------------------------|-----------------------------|--------------------------------|--------------------------------|
 | **ODROID-C4**           | ~2W / ~4W                         | 4 núcleos / 4GB RAM         | Similar al Raspberry Pi 4 pero más eficiente energéticamente. | Menor soporte de comunidad y software. |
 
-### Conclusiones
+## Conclusiones
 
 Tras analizar las diferentes opciones, hemos obtenido las siguientes conclusiones en relación a las necesidades de este proyecto:
 
 - **Raspberry Pi Zero W**: Es la opción ideal si el tráfico web será bajo (servidor estático) y el presupuesto es reducido. Su bajo consumo la hace perfecta para un sistema alimentado con un panel solar pequeño (~5W).
-
+- 
 - **Raspberry Pi 3B+**: Una buena opción para proyectos con requerimientos moderados, como un servidor dinámico con tráfico ocasional. Sin embargo, su consumo energético demanda un panel solar más potente, de aproximadamente 10W.
 
 - **Raspberry Pi 4**: Es la mejor elección si se necesita alto rendimiento (por ejemplo, para bases de datos o aplicaciones más pesadas). No obstante, su mayor consumo energético implica una configuración solar más robusta, con un panel de ~20W o superior.
 
 - **ODROID-C4**: Representa una alternativa eficiente si se busca un rendimiento similar al Raspberry Pi 4, pero con un consumo energético algo menor. A pesar de esto, su menor soporte de comunidad y software podría dificultar su implementación en comparación con las opciones de Raspberry Pi.
+
+
+En nuestro caso como buscamos una eficiencia a la hora de alojar el servidor optamos por la **Raspberry Pi Zero W** debido a su bajo consumo y menos contaminacion que deja en el medio ambiente en contraposcion a sus modelos hermanos y es ideal para el hosting de nuestro proyecto.
 
 
 **[Volver al inicio ](README.md)** | **[Consumo Energético ](consumo.md)**
