@@ -788,4 +788,4 @@ body.modo-eco {
 
 Inicio -> **[Volver al inicio ](README.md)**  
 Anterior -> **[Presupuesto](precio.md)**  
-Siguiente -> **[Referencias](#referencias)** 
+Siguiente -> **[Referencias](referencias.md)** 
