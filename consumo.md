@@ -20,4 +20,4 @@ Con lo cual nos deja que una Raspberry Pi 4 tiene un consumo mensual entre 36-37
 
 
 
-**[Volver al inicio ](README.md)** | **[Placa Solar ](placaSolar.md)**
+**[Volver al inicio ](README.md)** | **[Hardware](componentes.md)**  |   **[Placa Solar ](placaSolar.md)** 
