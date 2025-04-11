@@ -11,7 +11,7 @@ Proyecto demostrativo para crear un servidor web alimentado 100% con energía re
 ## Índice 
 1. [Hardware](componentes.md)  
 2. [Consumo Energético](consumo.md)  
-3. [Configuración del Sistema Solar](placaSolar.md)  
+3. [Placa Solar](placaSolar.md)  
 4. [Montaje del Servidor](servidor.md)  
 5. [Presupuesto](precio.md)
 6. [Pagina web](web.md)
