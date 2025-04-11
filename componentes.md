@@ -23,7 +23,7 @@ A la hora de la eleccion de nuestro servidor donde queremos alojar nuestra pagin
 Tras analizar las diferentes opciones, hemos obtenido las siguientes conclusiones en relación a las necesidades de este proyecto:
 
 - **Raspberry Pi Zero W**: Es la opción ideal si el tráfico web será bajo (servidor estático) y el presupuesto es reducido. Su bajo consumo la hace perfecta para un sistema alimentado con un panel solar pequeño (~5W).
-- 
+  
 - **Raspberry Pi 3B+**: Una buena opción para proyectos con requerimientos moderados, como un servidor dinámico con tráfico ocasional. Sin embargo, su consumo energético demanda un panel solar más potente, de aproximadamente 10W.
 
 - **Raspberry Pi 4**: Es la mejor elección si se necesita alto rendimiento (por ejemplo, para bases de datos o aplicaciones más pesadas). No obstante, su mayor consumo energético implica una configuración solar más robusta, con un panel de ~20W o superior.
