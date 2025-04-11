@@ -31,7 +31,8 @@ Tras analizar las diferentes opciones, hemos obtenido las siguientes conclusione
 - **ODROID-C4**: Representa una alternativa eficiente si se busca un rendimiento similar al Raspberry Pi 4, pero con un consumo energético algo menor. A pesar de esto, su menor soporte de comunidad y software podría dificultar su implementación en comparación con las opciones de Raspberry Pi.
 
 
-En nuestro caso como buscamos una eficiencia a la hora de alojar el servidor optamos por la **Raspberry Pi Zero W** debido a su bajo consumo y menos contaminacion que deja en el medio ambiente en contraposcion a sus modelos hermanos y es ideal para el hosting de nuestro proyecto.
+En nuestro caso como buscamos una eficiencia a la hora de alojar el servidor optamos por la **Raspberry Pi Zero W** debido a su bajo consumo y menos contaminacion que deja en el medio ambiente en contraposcion a sus modelos hermanos y es ideal para el hosting de nuestro proyecto.  
+Por dificultades tecnicas a la hora de la utilizacion de la Raspberry,los calculos y metodos a la hora de realizar esta practica seran con la **Raspberry Pi 4**,no es la mejor opcion a la hora de un host pequeño pero para la implementacion a futuro de mas parametros a nuestra pagina web biene que ni pintado 
 
 
 **[Volver al inicio ](README.md)** | **[Consumo Energético ](consumo.md)**
