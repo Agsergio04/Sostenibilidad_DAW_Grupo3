@@ -26,5 +26,5 @@ Dado que la Raspberry Pi consume 432 Wh al día (1.5 A a 12 V), una sola placa d
 
 Inicio -> **[Volver al inicio ](README.md)**  
 Anterior -> **[Consumo Energético](consumo.md)**  
-Siguiente -> **[Placa Solar ](placaSolar.md)** 
+Siguiente -> **[Montaje del Servidor](servidor.md)**  
 
