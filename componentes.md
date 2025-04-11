@@ -27,4 +27,4 @@ Tras analizar las diferentes opciones, hemos obtenido las siguientes conclusione
 - **ODROID-C4**: Representa una alternativa eficiente si se busca un rendimiento similar al Raspberry Pi 4, pero con un consumo energético algo menor. A pesar de esto, su menor soporte de comunidad y software podría dificultar su implementación en comparación con las opciones de Raspberry Pi.
 
 
-###**[Volver al inicio ](README.md)** | **[Consumo Energético ](consumo.md)**
+**[Volver al inicio ](README.md)** | **[Consumo Energético ](consumo.md)**
