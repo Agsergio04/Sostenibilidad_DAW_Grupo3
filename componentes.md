@@ -36,4 +36,5 @@ En nuestro caso como buscamos una eficiencia a la hora de alojar el servidor opt
 Por dificultades tecnicas a la hora de la utilizacion de la Raspberry,los calculos y metodos a la hora de realizar esta practica seran con la **Raspberry Pi 4**,no es la mejor opcion a la hora de un host pequeño pero para la implementacion a futuro de mas parametros a nuestra pagina web biene que ni pintado 
 
 
-**[Volver al inicio ](README.md)** |  Siguiente -> **[Consumo Energético ](consumo.md)**
+**[Volver al inicio ](README.md)**  
+Siguiente -> **[Consumo Energético ](consumo.md)**
