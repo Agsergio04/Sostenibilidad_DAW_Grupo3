@@ -16,7 +16,7 @@ Para una Raspberry Pi 4 que consume un promedio de 1.5 A/h, el cálculo del cons
 
 ### Conclusion
 
-Con lo cual nos deja que una Raspberry Pi 4 tiene un consumo mensual entre 1080 / A mes
+Con lo cual nos deja que una Raspberry Pi 4 tiene un consumo mensual de 1080 \ Ah$$
 
 
 
