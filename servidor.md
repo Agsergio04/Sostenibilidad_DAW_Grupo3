@@ -66,5 +66,5 @@ sudo chmod -R 755 /var/www/html/mi_web
   ```
 
 Inicio -> **[Volver al inicio ](README.md)**  
-Anterior -> **[Placa Solar](placaSolar.md) **  
+Anterior -> **[Placa Solar](placaSolar.md)**  
 Siguiente -> **[Presupuesto](precio.md)**
