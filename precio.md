@@ -13,6 +13,9 @@ Aqui una tabla con precios de ejemplo
 
 Con todo esto tenido en cuenta tenemos que el presupuesto se va a :
 
+Conjunto obligatorio a  499.99€
+Conjunto con los extras a 569.99€ - 709.99€
+
 
 
 Inicio -> **[Volver al inicio ](README.md)**  
