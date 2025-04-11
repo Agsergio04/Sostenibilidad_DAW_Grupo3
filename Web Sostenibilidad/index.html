@@ -1,0 +1,186 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda 2030 - Desarrollo Sostenible</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
+</head>
+<body>
+    <header>
+        <h1>El Futuro es Verde</h1>
+        <h2>Objetivos de Desarrollo Sostenible 2030</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="proyecto.html">Sobre el Proyecto</a></li>
+          </ul>
+        </nav>
+
+        <button onclick="toggleModoEco()" class="boton-eco">🌱 Modo Eco</button>
+      </header>
+  <main>
+    <section class="intro">
+        <h2>Unidos por un futuro sostenible</h2>
+        <p>Descubre los 17 Objetivos de Desarrollo Sostenible y acompáñanos en el camino hacia un mundo más justo, equitativo y respetuoso con el planeta.</p>
+    </section>
+
+    <section class="ods">
+        <h2>Objetivos de Desarrollo Sostenible</h2>
+        <div class="cards-container">
+
+          <label for="ods1">
+            <input type="radio" name="ods" id="ods1" hidden>
+            <details class="card">
+              <summary>ODS 1: Fin de la pobreza</summary>
+              <p>Erradicar la pobreza en todas sus formas y dimensiones es un requisito indispensable para el desarrollo sostenible. Este objetivo busca garantizar el acceso universal a recursos básicos como alimentación, vivienda, servicios sanitarios y educación, además de fomentar políticas de protección social y empleo digno.</p>
+            </details>
+          </label>
+
+          <label for="ods2">
+            <input type="radio" name="ods" id="ods2" hidden>
+            <details class="card">
+              <summary>ODS 2: Hambre cero</summary>
+              <p>El hambre y la malnutrición siguen siendo barreras fundamentales para el desarrollo. Este objetivo busca lograr la seguridad alimentaria, mejorar la nutrición y promover la agricultura sostenible mediante el apoyo a pequeños productores y la resiliencia frente al cambio climático.</p>
+            </details>
+          </label>
+ 
+          <label for="ods3">
+            <input type="radio" name="ods" id="ods3" hidden>
+            <details class="card">
+              <summary>ODS 3: Salud y bienestar</summary>
+              <p>Garantizar vidas saludables y promover el bienestar para todos es esencial para un futuro próspero. Este objetivo abarca desde la reducción de la mortalidad infantil y materna hasta la cobertura sanitaria universal, salud mental y preparación frente a pandemias.</p>
+            </details>
+          </label>
+
+          <label for="ods4">
+            <input type="radio" name="ods" id="ods4" hidden>
+            <details class="card">
+              <summary>ODS 4: Educación de calidad</summary>
+              <p>Este objetivo busca asegurar una educación inclusiva y de calidad en todos los niveles, así como fomentar oportunidades de aprendizaje permanente. Incluye la mejora de la formación docente, la equidad de género en el acceso a la educación y el desarrollo de habilidades digitales.</p>
+            </details>
+          </label>
+
+          <label for="ods5">
+            <input type="radio" name="ods" id="ods5" hidden>
+            <details class="card">
+              <summary>ODS 5: Igualdad de género</summary>
+              <p>Promueve la eliminación de todas las formas de discriminación y violencia contra mujeres y niñas. Incluye el acceso igualitario a oportunidades económicas, liderazgo político, salud sexual y reproductiva, y la erradicación del matrimonio infantil.</p>
+            </details>
+          </label>
+
+          <label for="ods6">
+            <input type="radio" name="ods" id="ods6" hidden>
+            <details class="card">
+              <summary>ODS 6: Agua limpia y saneamiento</summary>
+              <p>Busca garantizar el acceso universal y equitativo al agua potable y el saneamiento. Incluye la mejora de la calidad del agua, la eficiencia en su uso, la protección de ecosistemas acuáticos y la cooperación internacional en la gestión hídrica.</p>
+            </details>
+          </label>
+
+          <label for="ods7">
+            <input type="radio" name="ods" id="ods7" hidden>
+            <details class="card">
+              <summary>ODS 7: Energía asequible y no contaminante</summary>
+              <p>Fomenta el acceso universal a servicios energéticos modernos, fiables y sostenibles. Promueve el uso de energías renovables, la mejora de la eficiencia energética y la inversión en tecnologías limpias, fundamentales para mitigar el cambio climático.</p>
+            </details>
+          </label>
+
+          <label for="ods8">
+            <input type="radio" name="ods" id="ods8" hidden>
+            <details class="card">
+              <summary>ODS 8: Trabajo decente y crecimiento económico</summary>
+              <p>Este objetivo busca fomentar un crecimiento económico sostenido, inclusivo y sostenible. Promueve el empleo pleno y productivo, los derechos laborales, la reducción del desempleo juvenil y la erradicación del trabajo forzoso e infantil.</p>
+            </details>
+          </label>
+
+          <label for="ods9">
+            <input type="radio" name="ods" id="ods9" hidden>
+            <details class="card">
+              <summary>ODS 9: Industria, innovación e infraestructura</summary>
+              <p>Aboga por construir infraestructuras resilientes, fomentar la industrialización inclusiva y promover la innovación tecnológica. Busca cerrar la brecha digital y mejorar la sostenibilidad de la infraestructura energética y de transporte.</p>
+            </details>
+          </label>
+
+          <label for="ods10">
+            <input type="radio" name="ods" id="ods10" hidden>
+            <details class="card">
+              <summary>ODS 10: Reducción de las desigualdades</summary>
+              <p>Busca reducir las desigualdades dentro de los países y entre ellos, mediante políticas fiscales y sociales inclusivas, la protección de los derechos de los migrantes y la promoción de la equidad económica y social.</p>
+            </details>
+          </label>
+
+          <label for="ods11">
+            <input type="radio" name="ods" id="ods11" hidden>
+            <details class="card">
+              <summary>ODS 11: Ciudades y comunidades sostenibles</summary>
+              <p>Promueve ciudades inclusivas, seguras, resilientes y sostenibles. Abarca desde el acceso a viviendas adecuadas hasta el transporte sostenible, la gestión de residuos urbanos y la planificación urbana respetuosa con el medio ambiente.</p>
+            </details>
+          </label>
+
+          <label for="ods12">
+            <input type="radio" name="ods" id="ods12" hidden>
+            <details class="card">
+              <summary>ODS 12: Producción y consumo responsables</summary>
+              <p>Busca garantizar patrones sostenibles de consumo y producción, fomentando la eficiencia de recursos, la gestión ecológica de productos químicos y desechos, y el acceso a información para adoptar decisiones responsables.</p>
+            </details>
+          </label>
+
+          <label for="ods13">
+            <input type="radio" name="ods" id="ods13" hidden>
+            <details class="card">
+              <summary>ODS 13: Acción por el clima</summary>
+              <p>Insta a adoptar medidas urgentes para combatir el cambio climático y sus efectos. Esto incluye la mejora de la educación ambiental, la resiliencia frente a desastres naturales y el cumplimiento de acuerdos internacionales como el Acuerdo de París.</p>
+            </details>
+          </label>
+
+          <label for="ods14">
+            <input type="radio" name="ods" id="ods14" hidden>
+            <details class="card">
+              <summary>ODS 14: Vida submarina</summary>
+              <p>Promueve la conservación y el uso sostenible de los océanos, mares y recursos marinos. Incluye la reducción de la contaminación marina, la protección de ecosistemas costeros y la pesca sostenible.</p>
+            </details>
+          </label>
+
+          <label for="ods15">
+            <input type="radio" name="ods" id="ods15" hidden>
+            <details class="card">
+              <summary>ODS 15: Vida de ecosistemas terrestres</summary>
+              <p>Se centra en proteger, restaurar y promover el uso sostenible de los ecosistemas terrestres. Abarca la gestión de bosques, la lucha contra la desertificación y la pérdida de biodiversidad, vital para la salud del planeta.</p>
+            </details>
+          </label>
+
+          <label for="ods16">
+            <input type="radio" name="ods" id="ods16" hidden>
+            <details class="card">
+              <summary>ODS 16: Paz, justicia e instituciones sólidas</summary>
+              <p>Busca promover sociedades justas, pacíficas e inclusivas. Esto incluye el acceso a la justicia, la lucha contra la corrupción, instituciones transparentes y la participación ciudadana.</p>
+            </details>
+          </label>
+
+          <label for="ods17">
+            <input type="radio" name="ods" id="ods17" hidden>
+            <details class="card">
+              <summary>ODS 17: Alianzas para lograr los objetivos</summary>
+              <p>Este objetivo reconoce que la cooperación internacional es esencial para lograr el desarrollo sostenible. Fomenta alianzas globales inclusivas, la movilización de recursos financieros y la transferencia de tecnología.</p>
+            </details>
+          </label>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <p>Desarrollado en Raspberry Pi con energía solar. Proyecto para el módulo de Sostenibilidad en el Sistema Productivo.</p>
+  </footer>
+  <script>
+    if (localStorage.getItem('modoEcoActivado') === 'true') {
+      document.body.classList.add('modo-eco');
+    }
+    function toggleModoEco() {
+      document.body.classList.toggle('modo-eco');
+      localStorage.setItem('modoEcoActivado', document.body.classList.contains('modo-eco'));
+    }
+  </script>
+</body>
+</html>

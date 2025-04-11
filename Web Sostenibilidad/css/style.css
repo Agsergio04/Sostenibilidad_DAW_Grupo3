@@ -1,0 +1,417 @@
+/* General Variables */
+:root {
+  --bg-color: #fffef7;      /* Color de fondo claro (color beige) */
+  --text-color: #283618;    /* Color de texto oscuro (color verde oliva oscuro) */
+  --accent-color: #dda15e;  /* Color de acento (color mostaza) */
+  --header-color: #9dba3e;  /* Color para el encabezado (verde oliva) */
+  --eco-bg-color: #242424; /* Fondo para secciones relacionadas con la ecología (blanco) */
+  --eco-text-color: #333;   /* Color de texto para la ecología (gris oscuro) */
+  --pastel-green: #21241e;  /* Verde pastel para los elementos de diseño */
+  --card-green: #b2bea1;
+  --pastel-brown: #7b6c5e;  /* Marrón pastel para el efecto de gradiente */
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* === Footer === */
+footer {
+  background-color: #e3e3e3;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #444;
+  position: relative; /* Asegura que el footer se quede al final */
+  z-index: 2; /* Está por encima del contenido */
+}
+
+footer p {
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(135deg, var(--pastel-green), var(--pastel-brown));
+  color: white;
+  padding: 1.5rem 2rem;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea todo a la izquierda */
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+header h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: #666d56;
+  border-radius: 20px;
+  padding: 5px 15px;
+  margin-top: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.boton-eco {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.boton-eco:hover {
+  background-color: var(--header-color);
+  color: var(--eco-bg-color);
+}
+
+/* === Sección de Bienvenida (Intro) === */
+section.intro {
+  position: relative;
+  background-image: url('../assets/comprimidas/warming-green-forest.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem 2rem;
+  color: white; /* Texto en blanco */
+  text-align: center;
+  filter: grayscale(40%); /* Desatura la imagen */
+  height: 50vh; /* Ajusta la altura para no ser tan grande */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro h2 {
+  font-size: 4rem;
+}
+
+.intro p {
+  font-size: 1.4rem;
+}
+
+section.intro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Overlay oscuro semitransparente */
+  z-index: -1; /* Coloca el overlay debajo del contenido */
+}
+
+h2 {
+  font-size: 2.5rem;
+  z-index: 1; /* Asegura que el título esté por encima del overlay */
+}
+
+p {
+  font-size: 1.1rem;
+  z-index: 1; /* Asegura que el párrafo esté por encima del overlay */
+}
+
+/* === Sección de Objetivos de Desarrollo Sostenible (ODS) === */
+.ods {
+  padding: 2rem;
+  background-color: var(--bg-color);
+}
+
+.ods h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* === Estilo de cada tarjeta === */
+.card summary {
+  background-color: var(--card-green);
+  padding: 1rem 1.2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--text-color);
+  list-style: none;
+  border-bottom: 1px solid #c2dec4;
+  transition: background-color 0.3s ease;
+}
+
+.card summary:hover {
+  background-color: --;
+}
+
+.card p {
+  padding: 1rem 1.2rem;
+  font-size: 0.95rem;
+  color: #333;
+  text-align: justify;
+}
+
+.card {
+
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efecto hover */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* === Estilo para difuminar el fondo === */
+.card input[type="radio"] {
+  display: none;
+}
+
+.card input[type="radio"]:checked + details {
+  filter: none; /* Cuando está seleccionado, no hay filtro */
+}
+
+.card input[type="radio"]:not(:checked) + details {
+  filter: blur(3px); /* Difumina el fondo de los detalles no seleccionados */
+}
+
+.card input[type="radio"]:checked + details {
+  transform: scale(1.05); /* Se puede aumentar el tamaño del detalle seleccionado */
+}
+
+/* Mejoras visuales para dispositivos pequeños */
+@media (max-width: 600px) {
+  .ods h2 {
+    font-size: 1.5rem;
+  }
+
+  .card summary {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Estilos específicos para la página de sostenibilidad */
+.sostenibilidad-main {
+  padding: 0 2rem;
+}
+
+.sostenibilidad-seccion {
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  margin: 2rem 0;
+  color: white;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Crear overlay oscuro para mejorar el contraste */
+.sostenibilidad-seccion::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Ajusta la opacidad para mayor o menor contraste */
+  border-radius: 8px;
+  z-index: 1; /* Asegura que el overlay esté encima de la imagen, pero debajo del texto */
+}
+
+.sostenibilidad-seccion h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  z-index: 2; /* Asegura que el texto esté encima del overlay */
+  position: relative; /* Necesario para que el z-index funcione */
+}
+
+.sostenibilidad-seccion p {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  z-index: 2; /* Asegura que el texto esté encima del overlay */
+  position: relative; /* Necesario para que el z-index funcione */
+}
+
+/* Opcional: Sombra de texto para mejorar aún más la legibilidad */
+.sostenibilidad-seccion h2, .sostenibilidad-seccion p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+#desarrollo-sostenible {
+  background-image: url('../assets/comprimidas/landscape1.png');
+}
+
+#biodiversidad {
+  background-image: url('../assets/comprimidas/landscape3.png');
+}
+
+#plastico {
+  background-image: url('../assets/comprimidas/landscape2.png');
+}
+
+#consumo-energetico {
+  background-image: url('../assets/comprimidas/landscape5.jpg');
+}
+
+#green-computing {
+  background-image: url('../assets/comprimidas/green-computing.jpg');
+}
+
+/* Filtro oscuro para hacer el texto más legible */
+.sostenibilidad-seccion::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  pointer-events: none; /* Permite interactuar con el contenido detrás */
+}
+
+/* Estilos para el enlace "+ Más info" */
+.more-info-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--primary-color); /* Puedes definir un color específico */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.more-info-link:hover {
+  color: var(--accent-color); /* Cambio de color al pasar el cursor */
+  transform: translateY(-2px);  /* Efecto de elevarse */
+}
+
+/* Añadir espacio entre el enlace y el resto del contenido */
+.sostenibilidad-seccion p {
+  margin-bottom: 1.5rem;
+}
+
+/* Estilos solo para la página 'Sobre el Proyecto' */
+body.sobre-el-proyecto {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenido principal */
+.contenido-principal {
+  padding: 1rem 3rem;
+  background-color: var(--bg-color);
+  color: var(--eco-text-color);
+}
+
+.titulo-seccion {
+  color: var(--text-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.3rem;
+}
+
+.texto-seccion {
+  text-align: justify;
+  margin-bottom: 1rem;
+  color: var(--eco-text-color);
+}
+
+.autores {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;  /* Gris claro para que no destaque demasiado */
+  margin-top: 3rem;
+}
+
+.autores p {
+  margin: 0;
+}
+
+.boton-eco {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.boton-eco:hover {
+  background-color: var(--header-color);
+  color: var(--eco-bg-color);
+}
+
+body.modo-eco {
+  filter: brightness(0.82) saturate(0.8); /* Aplica a todo lo visual dentro del body */
+  color: var(--text-color); /* Mantén color de texto legible */
+}

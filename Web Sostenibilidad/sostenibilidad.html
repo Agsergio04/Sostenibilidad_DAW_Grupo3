@@ -1,0 +1,69 @@
+<!-- sostenibilidad.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sostenibilidad</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
+</head>
+<body>
+    <header>
+        <h1>El Futuro es Verde</h1>
+        <h2>Objetivos de Desarrollo Sostenible 2030</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="proyecto.html">Sobre el Proyecto</a></li>
+          </ul>
+        </nav>
+
+        <button onclick="toggleModoEco()" class="boton-eco">🌱 Modo Eco</button>
+      </header>
+  <main class="sostenibilidad-main">
+    <section class="sostenibilidad-seccion" id="desarrollo-sostenible">
+        <h2>¿Qué es el desarrollo sostenible?</h2>
+        <p>El desarrollo sostenible es un concepto que ha evolucionado a lo largo del tiempo y se refiere a un modelo de desarrollo que tiene en cuenta no solo el crecimiento económico, sino también la protección del medio ambiente y el bienestar social. Esto significa que debemos encontrar un equilibrio entre las necesidades presentes y las futuras, asegurándonos de no agotar los recursos naturales ni causar daño irreversible a los ecosistemas. Las políticas de desarrollo sostenible promueven la utilización de recursos renovables y la minimización de residuos, para que las futuras generaciones puedan disfrutar de los mismos recursos y calidad de vida.</p>
+        <p><a href="https://es.wikipedia.org/wiki/Desarrollo_sostenible" class="more-info-link">+ Más info</a></p>
+      </section>
+      
+      <section class="sostenibilidad-seccion" id="biodiversidad">
+        <h2>Biodiversidad</h2>
+        <p>La biodiversidad es uno de los pilares más importantes de la sostenibilidad global. Esta se refiere a la variedad de vida en la Tierra, desde las especies animales y vegetales hasta los ecosistemas que las albergan. La pérdida de biodiversidad afecta gravemente la seguridad alimentaria, la salud humana, y los procesos ecológicos vitales como la polinización y la purificación del aire. Para proteger la biodiversidad, es fundamental reducir la destrucción de hábitats naturales, promover la agricultura sostenible y crear reservas naturales que sirvan como refugios para especies en peligro de extinción.</p>
+        <p><a href="https://es.wikipedia.org/wiki/Biodiversidad" class="more-info-link">+ Más info</a></p>
+      </section>
+      
+      <section class="sostenibilidad-seccion" id="plastico">
+        <h2>Contaminación por plásticos</h2>
+        <p>La contaminación por plásticos es uno de los mayores desafíos medioambientales que enfrentamos hoy en día. Cada año, millones de toneladas de plástico terminan en los océanos, afectando gravemente a la fauna marina y contaminando los ecosistemas acuáticos. Los plásticos no solo son perjudiciales para los animales, que los confunden con alimento, sino que también pueden ingresar a la cadena alimentaria humana. Para combatir esta problemática, se están promoviendo alternativas biodegradables, la reducción del consumo de plásticos de un solo uso, y el reciclaje eficiente. Es fundamental que todos adoptemos prácticas más responsables en nuestro uso del plástico.</p>
+        <p><a href="https://es.wikipedia.org/wiki/Contaminaci%C3%B3n_por_pl%C3%A1sticos" class="more-info-link">+ Más info</a></p>
+      </section>
+      
+      <section class="sostenibilidad-seccion" id="consumo-energetico">
+        <h2>Consumo energético digital</h2>
+        <p>En la era digital, el consumo energético está creciendo rápidamente debido a la expansión de dispositivos electrónicos y la necesidad de servidores para almacenar y procesar información. Cada búsqueda en línea, cada mensaje enviado o cada video visto consume energía, muchas veces de fuentes no renovables. El sector tecnológico, al igual que otros, tiene la responsabilidad de reducir su huella energética. La adopción de energías renovables, la eficiencia energética y el diseño sostenible de dispositivos son algunas de las formas en que podemos contribuir a un futuro más verde. El Green Computing es un enfoque que promueve prácticas digitales sostenibles.</p>
+        <p><a href="https://es.wikipedia.org/wiki/Energ%C3%ADa_digital" class="more-info-link">+ Más info</a></p>
+      </section>
+      
+      <section class="sostenibilidad-seccion" id="green-computing">
+        <h2>Green Computing</h2>
+        <p>Green Computing o computación verde es una filosofía que promueve la reducción del impacto ambiental de los sistemas informáticos. Este enfoque busca mejorar la eficiencia energética de los dispositivos y minimizar el uso de materiales peligrosos, así como promover el reciclaje. Desde la fabricación de computadoras hasta el uso cotidiano de las tecnologías, Green Computing busca optimizar el rendimiento sin comprometer el medio ambiente. Iniciativas como la virtualización de servidores, la adopción de energías renovables en centros de datos, y la creación de productos electrónicos con menor impacto ambiental están ganando terreno.</p>
+        <p><a href="https://es.wikipedia.org/wiki/Computaci%C3%B3n_verde" class="more-info-link">+ Más info</a></p>
+      </section>
+  </main>
+
+  <footer>
+    <p>Conocimiento para un futuro sostenible. Web ligera diseñada con eficiencia energética.</p>
+  </footer>
+  <script>
+    if (localStorage.getItem('modoEcoActivado') === 'true') {
+      document.body.classList.add('modo-eco');
+    }
+    function toggleModoEco() {
+      document.body.classList.toggle('modo-eco');
+      localStorage.setItem('modoEcoActivado', document.body.classList.contains('modo-eco'));
+    }
+  </script>
+</body>
