@@ -1,8 +1,6 @@
 # Hardware
 
-A la hora de la eleccion de nuestro servidor donde queremos alojar nuestra pagina web sostenible hemos declarado que la opcion mas barata y eco-friendly es el uso de placas Rasphberry.  
-
-Por otro lado en el mercado existen una variedad de modelos con especificaciones diferentes,por lo que dejan una diferente huella en el medio ambiente.
+A la hora de la eleccion de nuestro servidor donde queremos alojar nuestra pagina web sostenible hemos declarado que la opcion mas barata y eco-friendly es el uso de placas Rasphberry.Por otro lado en el mercado existen una variedad de modelos con especificaciones diferentes,por lo que dejan una diferente huella en el medio ambiente.
 
 
 ## Comparativa de Modelos de Raspberry Pi y Alternativa
