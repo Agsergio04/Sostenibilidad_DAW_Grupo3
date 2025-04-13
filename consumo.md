@@ -1,26 +1,38 @@
-# Consumo Energético
+ 🔌 Consumo Energético
 
-Para una Raspberry Pi 4 que consume un promedio de 1.5 A/h, el cálculo del consumo diario y mensual es el siguiente:
+Para estimar el consumo energético de una Raspberry Pi 4, partimos de su consumo medio: **1.5 amperios a 5 voltios**. Esto se traduce en una potencia aproximada de:
 
-## Consumo diario 
+### ⚡ Potencia media
 
-- **Consumo diario**:
-  $$Consumo \ diario = 1.5 \ A \times 24 \ h = 36 \ Ah$$
+$$
+P = V \times I = 5V \times 1.5A = 7.5W
+$$
 
-## Consumo Mensual 
+---
 
-- **Consumo mensual**:
-  $$Consumo \ mensual = 36 \ Ah/día \times 30 \ días = 1080 \ Ah$$
+### 📅 Consumo diario
 
+$$
+Consumo\ diario = 7.5W \times 24h = 180Wh/día
+$$
 
+---
 
-### Conclusion
+### 📆 Consumo mensual
 
-Con lo cual nos deja que una Raspberry Pi 4 tiene un consumo mensual de 1080 Amperios por mes 
+$$
+Consumo\ mensual = 180Wh/día \times 30\ días = 5400Wh/mes = 5.4kWh/mes
+$$
 
+---
+### Conclusión
 
+Una **Raspberry Pi 4** funcionando de manera continua consume aproximadamente 5.4 kWh al mes. Con el precio actual de la electricidad en España, que oscila entre **0.15 €/kWh** y **0.30 €/kWh** a lo largo del día, el coste mensual de este consumo puede variar entre **0,81** € y **1,62 €**. Aunque este consumo pueda parecer bajo, en entornos con alta demanda, estos valores son importantes para una correcta planificación energética y para optimizar el uso de recursos.
 
+---
 
-Inicio -> **[Volver al inicio ](README.md)**  
-Anterior -> **[Hardware](componentes.md)**  
-Siguiente -> **[Placa Solar ](placaSolar.md)** 
+### 🧭 Navegación
+
+⬅️ [Volver al inicio](README.md)  
+⬅️ [Ir a la sección de Hardware](componentes.md)  
+➡️ [Ir a la sección de Placa Solar](placaSolar.md)
