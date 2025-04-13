@@ -58,10 +58,7 @@ Este proyecto busca inspirar a otros a incorporar principios de sostenibilidad e
 
 Puedes acceder al sitio web del proyecto a través del siguiente enlace:
 
-🔗 [Acceder a la web](https://URL-DE-LA-WEB)
-
-> ⚠️ *Sergio, donde pone URL-DE-LA-WEB, pon el enlace al Github pages y borra este mensaje*
----
+🔗 [Acceder a la web](https://agsergio04.github.io/PaginaWebSostenibilidad/)
 
 ⬅️ **[Volver al inicio](README.md)**  
 ⬅️ **[Ir a Presupuesto](precio.md)**  
