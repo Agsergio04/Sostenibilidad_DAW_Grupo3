@@ -1,30 +1,34 @@
 # Placa Solar
 
-Para alimentar una Raspberry Pi 4 con un consumo de 1.5 A/h, necesitarás una placa solar que pueda generar suficiente energía. Si consideramos una placa solar de 100 W, y suponiendo que recibes un promedio de 5 horas de sol pico al día, la producción diaria de la placa sería:
+Para alimentar una **Raspberry Pi 4**, que consume **1.5A a 5V** (lo que equivale a **7.5 W** por hora si está funcionando de manera continua), se necesita una **placa solar** capaz de generar suficiente energía para cubrir ese consumo.
 
-$$Producción \ diaria = 100 \ W \times 5 \ h = 500 \ Wh$$
+Si utilizamos una **placa solar de 20 W** y asumimos un promedio de **5 horas de sol pico al día**, la producción diaria de la placa sería:
 
-Dado que la Raspberry Pi consume 432 Wh al día (1.5 A a 12 V), una sola placa de 100 W sería suficiente para cubrir el consumo diario, siempre y cuando se utilice un sistema de almacenamiento adecuado (batería).
+$$
+Producción \ diaria = 20 \ W \times 5 \ h = 100 \ Wh
+$$
+
+Dado que la **Raspberry Pi 4** consume aproximadamente **7.5 W al día**, una **placa solar de 20 W** sería más que suficiente para cubrir el consumo diario de la Raspberry Pi, siempre y cuando se utilice un sistema de almacenamiento adecuado (como una batería).
 
 ## Montaje del Sistema Solar
 
 ### Componentes necesarios
 
-- Placa solar (100 W)
-- Controlador de carga
-- Batería 
-- Inversor (si la Raspberry Pi requiere corriente alterna)
-- Cables y conectores
+- **Placa solar** (20 W)
+- **Controlador de carga** (para gestionar la carga de la batería)
+- **Batería** (para almacenamiento de energía)
+- **Cables y conectores** (para las conexiones eléctricas)
 
 ### Conexión
 
-1. Conecta la placa solar al controlador de carga.
-2. Conecta el controlador de carga a la batería.
-3. Si es necesario, conecta el inversor a la batería y luego a la Raspberry Pi.
+1. Conecta la **placa solar** al **controlador de carga**.
+2. Conecta el **controlador de carga** a la **batería** para almacenar la energía generada.
+3. Conecta la **batería** a la **Raspberry Pi** (usualmente mediante un **regulador de 5V** para asegurar que la Raspberry reciba la cantidad adecuada de voltaje).
 
+---
 
+### Navegación
 
-Inicio -> **[Volver al inicio ](README.md)**  
-Anterior -> **[Consumo Energético](consumo.md)**  
-Siguiente -> **[Montaje del Servidor](servidor.md)**  
-
+⬅️ **[Volver al inicio](README.md)**  
+⬅️ **[Ir a Consumo Energético](consumo.md)**  
+➡️ **[Ir a Montaje del Servidor](servidor.md)**  
