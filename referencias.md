@@ -1,80 +1,58 @@
-#Referencias
-
 # Referencias del Proyecto
 
 ## Websites y blogs técnicos
 1. **ECO ENERGY GEEK**  
-   - URL: https://ecoenergygeek.com  
-   - Uso: Datos de consumo energético de Raspberry Pi Zero W.
+   🔗 https://ecoenergygeek.com  
+   _Fuente de datos de consumo energético de la Raspberry Pi Zero W._
 
 2. **RASPI.TV**  
-   - URL: https://raspi.tv  
-   - Uso: Análisis de consumo energético del Raspberry Pi Zero W (artículo de 2018).
+   🔗 https://raspi.tv  
+   _Artículo técnico (2018) con análisis de consumo energético en Raspberry Pi._
 
 3. **RASPBERRY PI SPY**  
-   - URL: https://raspberrypi-spy.co.uk  
-   - Uso: Mediciones de uso energético del Raspberry Pi Zero W (2019).
+   🔗 https://raspberrypi-spy.co.uk  
+   _Datos de medición de consumo energético (2019)._
 
-## Software y herramientas
+## Software y herramientas utilizadas
 4. **Raspberry Pi Imager**  
-   - URL: https://www.raspberrypi.com/software/  
-   - Uso: Instalación del sistema operativo en la Raspberry Pi.
+   🔗 https://www.raspberrypi.com/software/  
+   _Herramienta oficial para instalar sistemas operativos en Raspberry Pi._
 
 5. **Balena Etcher**  
-   - URL: https://www.balena.io/etcher/  
-   - Uso: Grabación de imágenes en tarjetas microSD.
+   🔗 https://www.balena.io/etcher/  
+   _Software multiplataforma para grabar imágenes en tarjetas microSD._
 
 6. **Open Media Vault**  
-   - URL: https://www.openmediavault.org  
-   - Uso: Software para configuración de NAS (instalado vía script GitHub).
+   🔗 https://www.openmediavault.org  
+   _Solución ligera para la configuración de un servidor NAS, instalada mediante script._
 
-## Productos y componentes
-7. **Raspberry Pi Zero 2W**  
-   - Precio: 29.90€  
-   - URL: [Amazon](https://www.amazon.es)  
-   - Nota: Enlace genérico (no se especifica URL exacta en el texto).
+## Documentación técnica y servidores
+7. **Raspberry Pi OS**  
+   🔗 https://www.raspberrypi.com/software/operating-systems/  
+   _Sistema operativo utilizado en el servidor del proyecto._
 
-8. **Panel Solar 100W Policristalino**  
-   - Precio: 83.99€  
-   - URL: [Leroy Merlin](https://www.leroymerlin.es/)  
-   - Detalle: No se incluye enlace directo al producto específico.
+8. **Apache HTTP Server**  
+   🔗 https://httpd.apache.org  
+   _Servidor web empleado para la gestión del sitio (paquete `apache2`)._
 
-9. **Batería Solar AGM 12V 100Ah**  
-   - Precio: 159€  
-   - URL: [Amazon](https://www.amazon.es/dp/B0B5JSY3XQ)  
-   - Marca: Electronicx Marine Edition.
+9. **MySQL Server**  
+   🔗 https://www.mysql.com  
+   _Sistema de gestión de bases de datos utilizado._
 
-10. **Cables y conectores solares**  
-    - Precio: 20-50€  
-    - URL: [Amazon](https://www.amazon.es)  
-    - Ejemplo: Accesorios para módulo solar de 20A.
+10. **Node.js**  
+    🔗 https://nodejs.org  
+    _Entorno de ejecución para aplicaciones web, utilizado en pruebas._
 
-## Documentación técnica
-11. **Raspberry Pi OS**  
-    - URL: https://www.raspberrypi.com/software/operating-systems/  
-    - Uso: Sistema operativo base para el servidor.
+## Fabricantes y alternativas tecnológicas
+11. **Raspberry Pi Foundation**  
+    🔗 https://www.raspberrypi.com/products/  
+    _Especificaciones técnicas de todos los modelos utilizados en el proyecto._
 
-12. **Apache HTTP Server**  
-    - URL: https://httpd.apache.org  
-    - Uso: Servidor web instalado (`apache2`).
+12. **ODROID-C4**  
+    🔗 https://www.hardkernel.com/shop/odroid-c4/  
+    _Plataforma alternativa analizada por su eficiencia y capacidad._
 
-13. **MySQL Server**  
-    - URL: https://www.mysql.com  
-    - Uso: Base de datos para el servidor.
+---
 
-14. **Node.js**  
-    - URL: https://nodejs.org  
-    - Uso: Entorno de ejecución para aplicaciones web.
-
-## Fabricantes y especificaciones técnicas
-15. **Raspberry Pi Foundation**  
-    - URL: https://www.raspberrypi.com/products/  
-    - Uso: Especificaciones técnicas de todos los modelos mencionados (Pi 4, Pi Zero W, etc.).
-
-16. **ODROID-C4**  
-    - URL: https://www.hardkernel.com/shop/odroid-c4/  
-    - Uso: Alternativa técnica analizada en el proyecto.
-   
-
-Inicio -> **[Volver al inicio ](README.md)**  
-Anterior -> **[Pagina web](web.md)**  
+⬅️ **[Volver al inicio](README.md)**  
+⬅️ **[Página web](web.md)**  
