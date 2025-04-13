@@ -1,4 +1,4 @@
- 🔌 Consumo Energético
+# Consumo Energético
 
 Para estimar el consumo energético de una Raspberry Pi 4, partimos de su consumo medio: **1.5 amperios a 5 voltios**. Esto se traduce en una potencia aproximada de:
 
