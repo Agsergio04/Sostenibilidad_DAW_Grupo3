@@ -1,23 +1,22 @@
-# Presupuestos
-
-Aqui una tabla con precios de ejemplo 
+# Presupuesto
 
 | Componente               | Precio       | Enlace / Detalles                                                                 | Observaciones                                                                 |
 |--------------------------|--------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **Panel Solar 200W**     | **180€**     | [Panel Flexible 180W (Damia Solar)](https://www.damiasolar.com/placas-solares/)   | Flexible, tecnología EFTE + TPE, ideal para portabilidad. Envío gratuito.     |
-| **Panel Solar 200W**     | **199,99€**  | [Alrska 200W (Monocristalino)](https://alrska.com/products/alrska-200-watt-solar-panel) | Eficiencia 22%, 12V, marco de aluminio. **Agotado temporalmente**.            |
-| **Raspberry Pi 4 Kit**   | ~120€        | [Ejemplo en Amazon](https://www.amazon.es/)                                       | Incluye Raspberry Pi 4, fuente, carcasa y microSD (buscar kits similares).    |
-| **MicroSD 16GB (opcional)**       | ~10€         | [SanDisk 16GB](https://www.amazon.es/)                                            | Opción básica (no incluida en resultados, pero disponible en Amazon España).  |
-| **Pantalla (opcional)**  | ~50-80€      | [Pantallas compatibles](https://www.amazon.es/)                                   | Ejemplo: Waveshare 5" táctil para Raspberry Pi.                               |
-| **Teclado/Ratón (opcional)** | ~20€    | [Combo Logitech MK270](https://www.amazon.es/)                                    | Inalámbrico y compacto.                                                       |
+| **Panel Solar 20W**      | **45€**      | [Panel Solar 20W](https://www.amazon.es/Cargador-emergencia-Impermeable-Senderismo-tel%C3%A9fonos/dp/B0C55CNCJW/ref=sr_1_9?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1D0TFUG1JC68P&dib=eyJ2IjoiMSJ9.f_DcVpqACjD7bVkBdj-7uHHPVzhYra7eFk5TzuFTdRXxDCtKVQolbLFU0Qm0eVXsxJU0nHrjUw69l5ilZtcA7apvwhKiAglaOUguHZoOsB9-3DxZa3Shxa6FYrAMryXR7kkyx9EFfuSVbdO2o86aoBzq_Qmql1RRmwv9jv7_EjVNqwu0L1ao6LjtCkGWxFQiJWi-S5IkYZV97P6v8RfEpeL1zyJ2vtrhSGfDp2hH8Btr4UxQEWw0hJgn_e2nMLCvTjgebT71dN1qgWCsyIh8C6dU8vC6r2O0-T4e_QUusqk.qUfdnGCHJZdQKk1cMZmdC8a4tgFXGeii3TTKTSiQ3Cc&dib_tag=se&keywords=panel%2Bsolar%2B20W&qid=1744549557&sprefix=panel%2Bsolar%2B20w%2Caps%2C123&sr=8-9&th=1)                                                              | Suficiente para la Raspberry Pi 4 en un entorno con moderada disponibilidad solar. |
+| **Raspberry Pi 4 Kit**   | ~120€        | [Ejemplo en Amazon](https://www.amazon.es/Raspberry-Pi-4595-Modelo-GB/dp/B09TTNF8BT/ref=sr_1_7?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=23EJ6XUMN83CS&dib=eyJ2IjoiMSJ9._0h8960DFbz5qh9seLJf1nrS9GSsKqqIpaTmr_djgher_F2r-S5KvEIz_cs67gH3E1C2rkR3mESPX2QGE0aRrDgGRJdHwXjxd3-Ysj-WGoKbSIgg2pZg3gq4kdfsoSSBEQmRdWfzTFipY-NH2tFz33J71oeJcNxse51Fria7FRbjG6MRBX5KXEYW8epRiEKjQ5ICdhG1u5XGY5K5n2tSBGk-12admwdi95QP8BUPSqlRneM0eGCjKEC3UJJbQsD-QURhlR6T8r7S4BwGNyLjDSumHgl4y2HqIIwdTGy8uJ0.ACfrsEsYw06AefolP0pJ2oJqcYc8EnFU9x1OyArJyjw&dib_tag=se&keywords=Raspberry%2BPi%2B4%2BKit&qid=1744549465&sprefix=raspberry%2Bpi%2B4%2Bkit%2Caps%2C114&sr=8-7&th=1)                                      | Incluye Raspberry Pi 4, fuente, carcasa y microSD (buscar kits similares).    |
+| **MicroSD 32GB**         | ~10€         | [SanDisk 16GB](https://www.amazon.es/SanDisk-SDSQUA4-032G-GN6MA-microSDHC-Adaptador-Rendimiento/dp/B08GY9NYRM/ref=sr_1_6_mod_primary_new?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1HO2ATZVPMBCQ&dib=eyJ2IjoiMSJ9.etvbxzKpuqNRc6bgfKqOf8Exr_47CcxUuYPUX1i8I5xgPsaDU2edcCs5OZ-shYCZO-GmqKeRLPVYqSsUehf8H3DR7oA5i3P5fr97KiNT7rWYDYrdcZxpsD65Jk5q16QN13GNAWP7v8LjcLGd1UWxHNiqAvZnHWcp4B2gIQ4CLBRNWbeVdPZOt6gX8qPH_opBNcht445_O6JN97lmLPEQ8N0Q4efTbBeR9HUWpul7Ide1NEkL_894HPWlOm1EIC-WT9AyoYf_vcPo1MUX3Lsu2uv2DqSwyPS8oVW3_NE6hYs.35LMuNpFSCzDanBabMp8Wn-dUJgZFnRbHD9fYdMkg9c&dib_tag=se&keywords=MicroSD%2B16GB%2Bsandisk&qid=1744549623&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=microsd%2B16gb%2Bsandisk%2Caps%2C100&sr=8-6&th=1)                                            | Opción básica.                                                                |
+| **Pantalla (opcional)**  | ~65€         | [Pantallas compatibles](https://www.amazon.es/Waveshare-Raspberry-Capacitive-Resolution-Consumption/dp/B08H23KB1G/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZJQ9DAE6U34F&dib=eyJ2IjoiMSJ9.GiU7oxlXB7n4mmhfDzkyDBMYaAQDTE8LkTA7zGVRjTmL25UOdw6Re3TArN7zCFUbrVVvuJdrLyp-6Lvg2l8zRIQZ0k9cAY6QIKQjl7bP4jwNgmWQdtMdIYGxLgXiQSKY-M3B_2uL5pHkKILRz2isRBNpvhJNgrM6xsPSfUmVOEjEEzAlz9VM76chyZ1UNF5JYWkXazmcXy5cYwXiGi-N5F4QRcstgCgshKa5ecx24p9i2gnU8rNBhjI1vqWfjuCA9Y9IKU2AW5OdfU27UaJlCjlUyI5HWVx0OAgG5-Z7vMY.6SI0lDNGyhhN70EDrT--QQui46A0VeA4rld-p1_WhD8&dib_tag=se&keywords=Waveshare+5%22+t%C3%A1ctil+para+Raspberry+Pi&qid=1744549358&sprefix=waveshare+5%22+t%C3%A1ctil+para+raspberry+pi%2Caps%2C98&sr=8-1)                                  | Ejemplo: Waveshare 5" táctil para Raspberry Pi.                               |
+| **Teclado/Ratón (opcional)** | ~20€    | [Combo Logitech MK270](https://www.amazon.es/Logitech-MK270-teclado-inal%C3%A1mbrico-Windows/dp/B00CHHDY66/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1PG5T1OTATCD9&dib=eyJ2IjoiMSJ9.B-_X5dq2VxNQB9u728b0BmMshFthMMuTHlv1JnG7acErW4uFydSBEHBHxDEo5jWFXK2wF4pr23I3UfldXxi9pOeu2LtlZNFYATsE17a0fCjSl0myHkdQGXj3UUmkM6JJV1TxRWlRLzUZmQUFCBW6Gv_NHB1_wug5pwCqVXx9upEWD88JIlp3n-hsMqGpE1Nz_wcEk1Ll9Dgoo_xFeXksBpy4j5OWHS2B6eFP0tLhgBo7qKY0MaQFTVdPx94cfLtZU4534woQqNqsxBcdnj_1Elb04gUuEku-fjc7dCof3dQ.nEBfDpOzptHOFV7Mzfu_irOZq2G2z4su37TQ9WH2VHs&dib_tag=se&keywords=Combo+Logitech+MK270&qid=1744549675&sprefix=combo+logitech+mk270%2Caps%2C105&sr=8-1)                                    | Inalámbrico y compacto.                                                       |
+| **Batería (opcional)**   | ~50€         | [Batería](#)                                                                     | Para mejorar la autonomía del sistema.                                        |
 
-Con todo esto tenido en cuenta tenemos que el presupuesto se va a :
+Con todo esto tenido en cuenta, obtenemos estos precios en función de la opción elegida:
 
-Conjunto obligatorio a  499.99€  
-Conjunto con los extras a 569.99€ - 709.99€
+- **Conjunto básico (obligatorio)**: **175€**  
+  Incluye lo esencial: Raspberry Pi 4, Panel Solar de 20W y otros componentes fundamentales.
+  
+- **Conjunto con extras (opcional)**: **310€**  
+  Esta opción incluye componentes adicionales como la pantalla táctil, teclado, ratón y batería para extender la funcionalidad y la autonomía del sistema.
 
-
-
-Inicio -> **[Volver al inicio ](README.md)**  
-Anterior -> **[Montaje del Servidor](servidor.md)**  
-Siguiente -> **[Pagina web](web.md)**  
+⬅️ **[Volver al inicio](README.md)**  
+⬅️ **[Ir a Montaje del Servidor](servidor.md)**  
+➡️ **[Ir a Página Web](web.md)**  
