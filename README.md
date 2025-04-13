@@ -15,7 +15,7 @@ Proyecto demostrativo para crear un servidor web alimentado 100% con energía re
 4. [Montaje del Servidor](servidor.md)  
 5. [Presupuesto](precio.md)
 6. [Pagina web](web.md)
-7. [Referencias](#referencias)  
+7. [Referencias](referencias.md)  
 
 
 
